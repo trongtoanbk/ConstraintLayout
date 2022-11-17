@@ -5,8 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <TextView
         app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="1.5"
         android:id="@+id/text_viewA"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="view A"
         android:textSize="25sp"
@@ -18,7 +19,8 @@
 
     <TextView
         android:id="@+id/text_viewB"
-        android:layout_width="wrap_content"
+        app:layout_constraintHorizontal_weight="1.5"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="view B"
         android:textSize="25sp"
@@ -29,7 +31,8 @@
 
     <TextView
         android:id="@+id/text_viewC"
-        android:layout_width="wrap_content"
+        app:layout_constraintHorizontal_weight="3"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="view C"
         android:textSize="25sp"
